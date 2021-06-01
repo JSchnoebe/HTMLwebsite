@@ -35,7 +35,6 @@
             </article>
             </main>
             <footer>
-            <img src="Photos/layla.jpeg"/>
 <h4>Go Cubs!</h4>
 </footer>
     <script src="script.js"></script>
