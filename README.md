@@ -31,6 +31,7 @@
             <li>I am a big Cubs fan and love watching them play unless they are losing.</li>
             <li>One interesting fact about me is that I fractured my hip playing baseball in High School.</li>
             </ul>
+            </article>
             </main>
             <footer>
             <img src="pics/Me.jpeg"/>
