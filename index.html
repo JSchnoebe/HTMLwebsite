@@ -52,15 +52,12 @@
             function myFunctionNo() {
               alert("We're not friends." );
             }
-
-            function yourFavoriteTeam() {
-              console.log('input value',document.getElementById("yourTeam").value);
-            }
-            function myFunction() {
-            var yourFavoriteTeam =
-            document.getElementById("myInput").value;
-            var text;
             
+            function yourFavoriteTeam() {
+            var yourFavoriteTeam =
+            document.getElementById("yourTeam").value;
+            var text;
+
               // If the team is "Cubs"
               if(yourFavoriteTeam === "Cubs"){
               text = "Go Cubs!";
@@ -69,6 +66,8 @@
             } else {
               text = "That team is Terrible!";
             }
+            document.getElementById("yourTeam").innerHTML = text;
+          }
             </script>
             <img src="photos/me-and-aleena.jpeg" alt= "me-and-aleena"/>
             </article>
