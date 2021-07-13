@@ -55,8 +55,19 @@
 
             function yourFavoriteTeam() {
               console.log('input value',document.getElementById("yourTeam").value);
+            }
+            function myFunction() {
+            var yourFavoriteTeam =
+            document.getElementById("myInput").value;
+            var text;
+            
+              // If the team is "Cubs"
+              if(yourFavoriteTeam === "Cubs"){
+              text = "Go Cubs!";
 
-
+              //If the team is anything else
+            } else {
+              text = "That team is Terrible!";
             }
             </script>
             <img src="photos/me-and-aleena.jpeg" alt= "me-and-aleena"/>
