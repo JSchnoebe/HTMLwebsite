@@ -1,9 +1,8 @@
 h1 {
     color:rgb(55, 146, 221);
-    border-style:groove
-  }
-  img {
-    width:250px
+    border-style: groove;
+    text-align:center
+
   }
   img {
     display: block;
@@ -25,9 +24,6 @@ h1 {
     border-style:outset;
     margin-bottom: 5px;
     
-  }
-  p {
-    color:navy
   }
   .pic {
   color:blue
@@ -51,16 +47,14 @@ h1 {
   }
   .PicTitle {
     text-align: center;
-    border: 3px solid
+    border: 3px solid;
+    border-color:rgb(37, 18, 202)
   }
   .date-button {
     display: flex;
     align-items: center;
     justify-content: center;}
     h6 {
-      text-align: center;
-    }
-    h1 {
       text-align: center;
     }
     ul {
