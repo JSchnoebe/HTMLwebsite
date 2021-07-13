@@ -36,16 +36,28 @@
             <p id="demo"></p>
             </div>
             <p>As you may now know, I am a big Cubs fan... Are you??</p>
-            <input id="myInput" type="submit">
-            <button onclick="myFunction()">Yes!</button>
-            <button onclick="myFunction()">No!</button>
+            <button onclick="myFunctionYes()">Yes!</button>
+            <button onclick="myFunctionNo()">No!</button>
             <p id="my-favorite-team"></p>
+            <input id="yourTeam" type="text">
+            <button onclick="yourFavoriteTeam()">Submit Team</button>
+
             <script>
-            function myFunction() {
-            var submit =
-             document.getElementById("myInput").value;
-            var submit;
-            // If the
+
+
+
+            function myFunctionYes() {
+              alert("Congrats! We're friends." );
+            }
+            function myFunctionNo() {
+              alert("We're not friends." );
+            }
+
+            function yourFavoriteTeam() {
+              console.log('input value',document.getElementById("yourTeam").value);
+
+
+            }
             </script>
             <img src="photos/me-and-aleena.jpeg" alt= "me-and-aleena"/>
             </article>
