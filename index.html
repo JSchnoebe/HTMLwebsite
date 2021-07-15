@@ -38,42 +38,16 @@
             <p>As you may now know, I am a big Cubs fan... Are you??</p>
             <button onclick="myFunctionYes()">Yes!</button>
             <button onclick="myFunctionNo()">No!</button>
-            <p id="my-favorite-team"></p>
+            <p id="my-favorite-team">Enter your favorite baseball team.</p>
             <input id="yourTeam" type="text">
-            <button onclick="yourFavoriteTeam()">Submit Team</button>
+            <button onclick="questionSix()">Submit Team</button>
 
-            <script>
-
-
-
-            function myFunctionYes() {
-              alert("Congrats! We're friends." );
-            }
-            function myFunctionNo() {
-              alert("We're not friends." );
-            }
-            
-            function yourFavoriteTeam() {
-            var yourFavoriteTeam =
-            document.getElementById("yourTeam").value;
-            var text;
-
-              // If the team is "Cubs"
-              if(yourFavoriteTeam === "Cubs"){
-              text = "Go Cubs!";
-
-              //If the team is anything else
-            } else {
-              text = "That team is Terrible!";
-            }
-            document.getElementById("yourTeam").innerHTML = text;
-          }
-            </script>
             <img src="photos/me-and-aleena.jpeg" alt= "me-and-aleena"/>
             </article>
             </main>
             <footer>
 <h4>Go Cubs!</h4>
 </footer>
+<script src="jaren.js"></script>
   </body>
 </html>

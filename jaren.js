@@ -1,8 +1,4 @@
-<p id="my-favorite-team"></p>
-<input id="yourTeam" type="text">
-<button onclick="yourFavoriteTeam()">Submit Team</button>
-
-<script>
+console.log('js file connected');
 
 
 
@@ -28,4 +24,45 @@ var text;
 }
 document.getElementById("yourTeam").innerHTML = text;
 }
-</script>
+
+//use prompt and confirm methods
+function questionSix(){
+console.log("question six function works");
+var userTeam = document.getElementById('yourTeam');
+console.log(userTeam.value);
+var userResponse = userTeam.value.toLowerCase();
+
+if(userResponse === 'cubs'){
+var userGame = confirm('They are the best, click ok to win your prize.');
+console.log(userGame);
+
+if(userGame === true){
+console.log('We are playing the game.');
+
+
+var numTeams = 2;
+var otherTeams = 'Tell me what other teams you like.';
+
+while(numTeams > 0){
+var userInput = prompt(otherTeams + 'You have ' + numTeams + ' turns left.');
+if(userInput !== ""){
+  alert('Yeah, that\'s a good team too.');
+  numTeams = numTeams - 1;
+}
+
+
+
+}//closes while loop
+
+
+}//closes if user game is true
+
+
+} else {
+alert('No that is not the right team.');
+
+}//closes main if statement
+
+alert('Thanks for playing my game.');
+
+}//closes question six function
