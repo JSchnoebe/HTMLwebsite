@@ -46,7 +46,7 @@ var otherTeams = 'Tell me what other teams you like.';
 while(numTeams > 0){
 var userInput = prompt(otherTeams + 'You have ' + numTeams + ' turns left.');
 if(userInput !== ""){
-  alert('Yeah, that\'s a good team too.');
+  alert('Not a fan..');
   numTeams = numTeams - 1;
 }
 
