@@ -17,11 +17,13 @@ h1 {
   }
   ul {
     border-style:outset;
+    border-color: rgb(202, 18, 18);
     
     
   }
   .li {
     border-style:outset;
+    border-color: rgb(202, 18, 18);
     margin-bottom: 5px;
     
   }
@@ -40,7 +42,7 @@ h1 {
   h4 {
     margin: auto;
     width: 50%;
-    border: 3px dotted rgb(37, 18, 202);
+    border: 3px dotted rgb(202, 18, 18);
     padding: 10px;
     text-align: center;
     color:red
@@ -48,10 +50,10 @@ h1 {
   .PicTitle {
     text-align: center;
     border: 3px solid;
-    border-color:rgb(37, 18, 202)
+    border-color:rgb(202, 18, 18)
   }
   .date-button {
-    display: flex;
+    display: center;
     align-items: center;
     justify-content: center;}
     h6 {
