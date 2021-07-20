@@ -9,6 +9,10 @@ function myFunctionNo() {
   alert("We're not friends.");
 }
 
+function yourFavoriteTeam() {
+  var yourFavoriteTeam =
+      document.getElementById("yourTeam").value;
+      
   var text;
 
   // If the team is "Cubs"
