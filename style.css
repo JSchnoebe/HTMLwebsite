@@ -18,15 +18,7 @@ h1 {
   }
   ul {
     border-style:outset;
-    border-color: rgb(202, 18, 18);
-    
-    
-  }
-  .li {
-    border-style:outset;
-    border-color: rgb(202, 18, 18);
-    margin-bottom: 5px;
-    
+    border-color: rgb(202, 18, 18);  
   }
   .pic {
   color:blue
