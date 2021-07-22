@@ -12,7 +12,6 @@ function myFunctionNo() {
 function yourFavoriteTeam() {
   var yourFavoriteTeam =
       document.getElementById("yourTeam").value;
-      
   var text;
 
   // If the team is "Cubs"

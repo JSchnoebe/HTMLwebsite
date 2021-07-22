@@ -19,7 +19,7 @@ h1 {
   ul {
     border-style:outset;
     border-color: rgb(202, 18, 18);
-    
+    margin: auto;
     
   }
   .li {
@@ -55,11 +55,6 @@ h1 {
   }
   .date-button {
     display: center;
-    align-items: center;
-    justify-content: center;}
     h6 {
       text-align: center;
-    }
-    ul {
-      margin: auto;
     }
